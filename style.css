@@ -1,0 +1,112 @@
+body {
+    background-color: #99baec;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+  background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+   text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+   color: #38bdf8;
+}
+
+main {
+   max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+main > div {
+   background: rgb(222, 232, 241);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(204, 35, 35, 0.05);
+}
+
+button {
+   background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+  background-color: #2644dc;
+}
+
+footer {
+   background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+form {
+    background: rgb(209, 224, 247);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form div {
+    margin-bottom: 18px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 14px;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+form button {
+    width: 100%;
+    background-color: #e02609;
+}
+
+form button:hover {
+    background-color: #1d4ed8;
+}
